@@ -6,8 +6,6 @@ import streamlit as st
 import io
 
 # Global variables
-
-
 class OrbitData:
     def __init__(self):
         self.el = np.zeros(10)  # [P, T, e, a, W, w, i, K1, K2, V0]
